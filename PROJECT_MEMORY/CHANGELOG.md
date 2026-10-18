@@ -47,7 +47,10 @@
 - Updated `src/siteSeo.ts` with Vizianagaram geolocation coordinates (`18.1124, 83.4070`).
 - Validated with clean TypeScript build (`tsc -b && vite build` passed with 0 errors).
 
-### 6. GitHub Collaborator Push
-- Committed all 95 changed and new files under commit `ea1bead`.
-- Pushed branch `main` to `https://github.com/lunacoderl/sreesampathpackersmovers.git` as collaborator (`lunacoderj`).
-- All media assets, authentic Indian imagery, videos, and refreshed components are live on the remote repository.
+### 6. GitHub Repository Setup & Remote Alignment
+- Undid previous commits on `sreesampathpackersmovers.git` by resetting remote `main` back to clean baseline `7bea72c`.
+- Re-initialized git repository cleanly for **Karthikeya Packers & Movers**.
+- Added dedicated `README.md` with `# karthikeyapackersmovers`.
+- Created clean root commit (`f7db543`) containing all 124 files (source code, authentic Indian service imagery, 4 real operational `.mp4` videos, and configuration).
+- Connected remote origin to `https://github.com/lunacoderl/karthikeyapackersmovers.git`.
+- Pushed and tracked branch `main` to `origin/main` successfully.
