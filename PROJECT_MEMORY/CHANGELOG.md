@@ -73,3 +73,10 @@
 - **Uncluttered & Less Text**: Streamlined hero copy to concise, punchy lines with direct CTAs (`Get Quotation Below`, `Call 7337534525`, `WhatsApp`) ensuring the hero image remains spacious and visually dominant.
 - **Quotation Form Placed Below Hero Image**: Situated the interactive Quick Move Quotation section (`#hero-quotation`) cleanly below the hero visual section without negative margin overlaps, providing an unobstructed view of the hero visual followed immediately by the quotation calculator.
 - Validated with clean production build (`npm run build` completed with 0 errors).
+
+### 10. Native Vizianagaram Indian Background Images (Hero, About & Contact)
+- **Replaced Foreign Imagery**: Completely swapped out previous generic/foreign background visuals with 100% authentic Indian, Vizianagaram (Andhra Pradesh) native environment photography.
+- **Hero Background (`public/hero-bg.png`)**: High-resolution wide shot in Vizianagaram, AP outside "SHREE BALAJI TOWERS" featuring a commercial Indian container truck branded with **"KARTHIKEYA PACKERS AND MOVERS"**, uniformed loaders in polo workwear loading bubble-wrapped cartons, Indian colony street with auto rickshaws and scooters under natural daylight.
+- **About Background (`public/about-bg.png`)**: Panoramic authentic Vizianagaram branch office featuring dual Telugu & English signage ("కార్తికేయ ప్యాకర్స్ & మూవర్స్ - విజయనగరం / KARTHIKEYA PACKERS AND MOVERS - VIZIANAGARAM"), an AP-registered Eicher moving container carrier, branch supervisor with clipboard, uniformed crew, and labeled cartons ("KARTHIKEYA FRAGILE", "KARTHIKEYA KITCHEN").
+- **Contact Background (`public/contact-bg.png`)**: Authentic Indian customer relationship and dispatch desk in Vizianagaram, featuring wall signage with Andhra Pradesh route map, dispatch board, and representative assisting moving inquiries.
+- Verified clean build with `npm run build`.

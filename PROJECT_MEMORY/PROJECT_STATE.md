@@ -14,7 +14,11 @@
 ## Core Business Features & Design System
 1. **Differentiated Modern Visual Identity**: Deep royal navy (`#0B192C`), sunset saffron/orange (`#FF6500`), and emerald accents.
 2. **Hero Section & Quotation Estimator**: Hero section features crystal-clear operations image `/hero-bg.png` on desktop and mobile, with a semi-transparent blurred text card (`bg-black/35 backdrop-blur-md`) prominently highlighting **Karthikeya Packers and Movers**, followed cleanly below by the interactive Quick Move Estimator.
-3. **Authentic Indian Service Imagery**: 6 photorealistic Indian images depicting residential shifting, corporate relocation, kitchen crockery packing, local colony shifts, NH-16 highway container trucks, and bike transport.
+3. **Authentic Indian Service & Native Vizianagaram Imagery**: Native photography set in Vizianagaram, AP across all core sections:
+   - **Hero (`/hero-bg.png`)**: AP residential building "SHREE BALAJI TOWERS" with branded Karthikeya moving container carrier and loading crew.
+   - **About (`/about-bg.png`)**: Vizianagaram branch office with bilingual Telugu/English signage, branded Eicher truck, supervisor and crew.
+   - **Contact (`/contact-bg.png`)**: Vizianagaram customer service and dispatch desk with Andhra Pradesh route map and coordinator.
+   - **Services (6 cards)**: Household shifting, corporate relocation, kitchen crockery packing, local colony shifts, NH-16 highway container trucks, and bike transport.
 4. **Real Client Operational Video Proof**: Prominent video showcase featuring 4 genuine on-site relocation videos with an interactive lightbox player (`<video controls autoPlay>`).
 5. **Asymmetric Bento Advantages Grid**: Modern Bento layout with high-trust metrics and zero-damage guarantees.
 6. **Vehicle Fleet Section Removed**: Streamlined out per client instruction, replaced by Safe Transit Guarantees and Direct Doorstep Transit protocol.
