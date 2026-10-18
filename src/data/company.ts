@@ -1,0 +1,33 @@
+export const companyDetails = {
+  name: "Karthikeya Packers & Movers",
+  shortName: "Karthikeya Movers",
+  legalName: "Karthikeya Packers and Movers Vizianagaram",
+  tagline: "Safe Moves • Trusted Relocation",
+  primaryMessage: "The Right Vehicle. The Right Team. A Safer Move.",
+  subMessage: "From local shifting across Vizianagaram & North Coastal AP to nationwide household and commercial transport, choose the vehicle size that fits your move.",
+  // Primary contact lines (Can be adjusted instantly once client confirms exact digits)
+  phone1: "9866266199",
+  phone1Display: "+91 98662 66199",
+  phone2: "9494543838",
+  phone2Display: "+91 94945 43838",
+  whatsappNumber: "919866266199",
+  email: "contact@karthikeyapackersmovers.com",
+  // Physical verified address from signboard
+  addressLine1: "D. No. 123, VUDA Colony, Phase-4, 40 Ward",
+  addressDistrict: "Vizianagaram District",
+  mandal: "Vizianagaram Mandal",
+  pinCode: "535003",
+  fullAddress: "D. No. 123, VUDA Colony, Phase-4, 40 Ward, Vizianagaram District, Mandal – 535003",
+  city: "Vizianagaram",
+  state: "Andhra Pradesh",
+  country: "India",
+  location: "Vizianagaram, Andhra Pradesh, India",
+  googleRating: 4.8,
+  reviewCount: "90+",
+  experienceYears: "8+",
+  coverage: "Vizianagaram Local, Visakhapatnam, Srikakulam, Andhra Pradesh & Pan-India Transportation",
+  logo: "/logo.png",
+  heroBg: "/hero-bg.png",
+  aboutBg: "/about-bg.png",
+  contactBg: "/contact-bg.png"
+}
