@@ -13,7 +13,7 @@
 
 ## Core Business Features & Design System
 1. **Differentiated Modern Visual Identity**: Deep royal navy (`#0B192C`), sunset saffron/orange (`#FF6500`), and emerald accents.
-2. **Instant Hero Estimator**: High-conversion move calculator in the hero section that builds instant WhatsApp messages with pickup, destination, and inventory scope.
+2. **Hero Section & Quotation Estimator**: Hero section features crystal-clear operations image `/hero-bg.png` on desktop and mobile, with a semi-transparent blurred text card (`bg-black/35 backdrop-blur-md`) prominently highlighting **Karthikeya Packers and Movers**, followed cleanly below by the interactive Quick Move Estimator.
 3. **Authentic Indian Service Imagery**: 6 photorealistic Indian images depicting residential shifting, corporate relocation, kitchen crockery packing, local colony shifts, NH-16 highway container trucks, and bike transport.
 4. **Real Client Operational Video Proof**: Prominent video showcase featuring 4 genuine on-site relocation videos with an interactive lightbox player (`<video controls autoPlay>`).
 5. **Asymmetric Bento Advantages Grid**: Modern Bento layout with high-trust metrics and zero-damage guarantees.

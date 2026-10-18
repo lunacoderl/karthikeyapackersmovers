@@ -66,3 +66,10 @@
 - Updated official WhatsApp dispatch link to `wa.me/917337534525` across all inquiry handlers and pre-filled move quotation builders.
 - Updated SEO schema (`src/siteSeo.ts`), Quote section placeholder, `README.md`, and `PROJECT_STATE.md`.
 - Verified production build (`npm run build`).
+
+### 9. Hero Section Refinement: Karthikeya Branding, Transparent Blur Backdrop, and Quotation Below Hero
+- **Explicit Brand Mention**: Updated hero headline to prominently display **"Karthikeya Packers and Movers"** with a crisp golden amber subhead ("Safe, Reliable & Affordable Relocation").
+- **Transparent Blurred Text Card**: Implemented a semi-transparent frosted glass backdrop (`bg-black/35 backdrop-blur-md border border-white/25 rounded-2xl sm:rounded-3xl p-5 sm:p-8`) allowing the underlying `/hero-bg.png` operations image to be clearly visible behind and around the text.
+- **Uncluttered & Less Text**: Streamlined hero copy to concise, punchy lines with direct CTAs (`Get Quotation Below`, `Call 7337534525`, `WhatsApp`) ensuring the hero image remains spacious and visually dominant.
+- **Quotation Form Placed Below Hero Image**: Situated the interactive Quick Move Quotation section (`#hero-quotation`) cleanly below the hero visual section without negative margin overlaps, providing an unobstructed view of the hero visual followed immediately by the quotation calculator.
+- Validated with clean production build (`npm run build` completed with 0 errors).
