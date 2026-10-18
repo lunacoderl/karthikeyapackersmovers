@@ -54,3 +54,9 @@
 - Created clean root commit (`f7db543`) containing all 124 files (source code, authentic Indian service imagery, 4 real operational `.mp4` videos, and configuration).
 - Connected remote origin to `https://github.com/lunacoderl/karthikeyapackersmovers.git`.
 - Pushed and tracked branch `main` to `origin/main` successfully.
+
+### 7. Crystal-Clear Hero Background Image (Mobile & Desktop)
+- Configured `/hero-bg.png` as the direct background of the Hero section spanning edge-to-edge on both mobile and desktop.
+- Removed all color tints, dark washes, and gradient overlays over the background image so it displays crystal clear with natural photographic colors.
+- Structured the value proposition and Instant Move Estimator in frosted glass panels for clean readability without compromising background image clarity.
+- Verified with clean production build (`npm run build`).
