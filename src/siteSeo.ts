@@ -11,7 +11,7 @@ export const siteSeo = {
   baseUrl: 'https://www.karthikeyapackersandmovers.online',
   businessName: 'Karthikeya Packers & Movers',
   legalName: 'Karthikeya Packers and Movers Vizianagaram',
-  telephone: '+91 98662 66199',
+  telephone: '+91 73375 34525',
   telephoneAlt: '+91 94945 43838',
   email: 'contact@karthikeyapackersmovers.com',
   address: {

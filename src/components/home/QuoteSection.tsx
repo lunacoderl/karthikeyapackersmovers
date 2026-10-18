@@ -135,7 +135,7 @@ export const QuoteSection: React.FC = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="e.g. 9866266199"
+                    placeholder="e.g. 7337534525"
                     required
                     className="w-full px-4 py-3.5 rounded-xl bg-white border border-slate-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 text-sm text-slate-900 outline-none transition-all shadow-xs"
                   />

@@ -5,7 +5,7 @@
 - **Primary Operational Base**: Vizianagaram, Andhra Pradesh, India
 - **Signboard Address**: D. No. 123, VUDA Colony, Phase-4, 40 Ward, Vizianagaram District, Mandal – 535003
 - **Primary Domain (Vercel Ready)**: `https://www.karthikeyapackersandmovers.online`
-- **Phone Numbers**: +91 98662 66199 / +91 94902 66199
+- **Phone Numbers**: +91 73375 34525 / +91 94945 43838
 - **Industry**: Household Shifting, Corporate Relocation, Vehicle Transportation & Long-Distance Moving
 - **Coverage Areas**: Vizianagaram Local (VUDA Colony, Cantonment, Kothavalasa), Visakhapatnam & Srikakulam coastal belt, Andhra Pradesh, Telangana (Hyderabad), and All-India Interstate Corridors
 - **Tech Stack**: React 19, TypeScript, Vite, Tailwind CSS v4, Lucide React

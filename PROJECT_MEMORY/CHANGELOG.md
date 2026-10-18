@@ -60,3 +60,9 @@
 - Removed all color tints, dark washes, and gradient overlays over the background image so it displays crystal clear with natural photographic colors.
 - Structured the value proposition and Instant Move Estimator in frosted glass panels for clean readability without compromising background image clarity.
 - Verified with clean production build (`npm run build`).
+
+### 8. Mobile Number Update
+- Updated primary phone number to `7337534525` (`+91 73375 34525`) across all direct call triggers and buttons.
+- Updated official WhatsApp dispatch link to `wa.me/917337534525` across all inquiry handlers and pre-filled move quotation builders.
+- Updated SEO schema (`src/siteSeo.ts`), Quote section placeholder, `README.md`, and `PROJECT_STATE.md`.
+- Verified production build (`npm run build`).
