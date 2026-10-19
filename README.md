@@ -6,7 +6,7 @@ Official business website for **Karthikeya Packers & Movers**, premier relocatio
 - **Company Name**: Karthikeya Packers & Movers
 - **Operational Headquarters**: D. No. 123, VUDA Colony, Phase-4, 40 Ward, Vizianagaram District, Mandal – 535003
 - **Primary Domain**: [https://www.karthikeyapackersandmovers.online](https://www.karthikeyapackersandmovers.online)
-- **Direct Support / Dispatch**: +91 73375 34525 / +91 94945 43838
+- **Direct Support / Dispatch**: +91 73375 34525
 
 ## 🚀 Features
 - **Mobile-First Responsive Layout**: Built with React 19, TypeScript, Vite, and Tailwind CSS v4.

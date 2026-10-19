@@ -20,12 +20,12 @@ export const AboutSection: React.FC = () => {
           </p>
         </div>
 
-        {/* Panoramic Full-Width Natural Visual */}
-        <div className="mb-12 rounded-3xl overflow-hidden border border-slate-200/90 shadow-xl bg-slate-100">
+        {/* Official Registered Company Banner */}
+        <div className="mb-12 rounded-3xl overflow-hidden border border-slate-200/90 shadow-xl bg-slate-950">
           <img
-            src="/about-bg.png"
-            alt="Karthikeya Packers & Movers operations hub and team in Vizianagaram"
-            className="w-full h-auto max-h-[580px] object-contain sm:object-cover mx-auto"
+            src="/about-banner.jpg"
+            alt="Karthikeya Packers & Movers official registered banner - AP-02-28-056-04509055 - Vizianagaram"
+            className="w-full h-auto object-contain block mx-auto"
             loading="lazy"
           />
         </div>

@@ -24,7 +24,7 @@ export const faqsData: FAQItem[] = [
   },
   {
     q: 'How can I request a free quote?',
-    a: `You can request a free quote in seconds! Either fill out our online quote form to generate a structured message on WhatsApp (${companyDetails.phone1Display}) or tap to call us directly at ${companyDetails.phone1Display} / ${companyDetails.phone2Display}.`
+    a: `You can request a free quote in seconds! Either fill out our online quote form to generate a structured message on WhatsApp (${companyDetails.phone1Display}) or tap to call us directly at ${companyDetails.phone1Display}.`
   },
   {
     q: 'Are your quotes transparent with no hidden costs?',

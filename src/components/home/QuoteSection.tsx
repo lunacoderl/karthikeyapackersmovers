@@ -272,11 +272,13 @@ export const QuoteSection: React.FC = () => {
                 </a>
 
                 <a
-                  href={`tel:${companyDetails.phone2}`}
-                  className="w-full py-3.5 px-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-base flex items-center justify-center gap-3 transition-colors border border-white/20"
+                  href={`https://wa.me/${companyDetails.whatsappNumber}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-base flex items-center justify-center gap-3 transition-colors shadow-md"
                 >
-                  <Phone className="w-5 h-5 text-amber-400" />
-                  <span>{companyDetails.phone2Display}</span>
+                  <MessageSquare className="w-5 h-5 text-white" />
+                  <span>Direct WhatsApp Chat</span>
                 </a>
               </div>
             </div>

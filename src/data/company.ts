@@ -5,13 +5,12 @@ export const companyDetails = {
   tagline: "Safe Moves • Trusted Relocation",
   primaryMessage: "The Right Vehicle. The Right Team. A Safer Move.",
   subMessage: "From local shifting across Vizianagaram & North Coastal AP to nationwide household and commercial transport, choose the vehicle size that fits your move.",
-  // Primary contact lines (Can be adjusted instantly once client confirms exact digits)
+  // Primary contact line
   phone1: "7337534525",
   phone1Display: "+91 73375 34525",
-  phone2: "9494543838",
-  phone2Display: "+91 94945 43838",
   whatsappNumber: "917337534525",
   email: "contact@karthikeyapackersmovers.com",
+  registrationNo: "AP-02-28-056-04509055",
   // Physical verified address from signboard
   addressLine1: "D. No. 123, VUDA Colony, Phase-4, 40 Ward",
   addressDistrict: "Vizianagaram District",

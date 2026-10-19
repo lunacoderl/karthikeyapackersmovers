@@ -86,3 +86,14 @@
 - **Local Shifting (`public/service/service-04.jpg`)**: High-resolution authentic photo in Vizianagaram outside "SRI SAI RESIDENCY". Features a moving container truck explicitly and prominently branded with **"KARTHIKEYA PACKERS AND MOVERS - VIZIANAGARAM"** and phone numbers, with uniformed loaders carrying a sofa protected with bubble wrap down the loading ramp.
 - **Domestic Relocation (`public/service/service-05.jpg`)**: Crisp, photorealistic shot along NH-16 highway with overhead directional signage ("VISAKHAPATNAM 110 km | HYDERABAD 380 km | VIJAYAWADA 160 km"). Features a modern multi-axle interstate carrier truck boldly branded with **"KARTHIKEYA PACKERS AND MOVERS - ALL INDIA RELOCATION • INTERSTATE SERVICE"**.
 - Validated with clean production build (`npm run build`).
+
+### 12. Official About Banner Integration & Removal of Secondary Phone Number
+- **Official Registered Company Banner (`public/about-banner.jpg`)**: Added the official graphic banner provided by the client into `AboutSection.tsx` with clean uncropped `object-contain` display. Highlights official government license/registration **`AP-02-28-056-04509055`**, verified phone **`73375 34525`**, 3D logo, core service pillars, and physical address (`D.NO: 123, VUDA COLONY, PHASE-4, 40 WARD, VIZIANAGARAM DISTRICT & MANDAL - 535003`).
+- **Complete Removal of Secondary Phone (`+91 94945 43838`)**: Removed all traces of the second phone number across:
+  - `src/data/company.ts` (removed `phone2` and `phone2Display`, added official `registrationNo`)
+  - `src/siteSeo.ts` (removed `telephoneAlt`)
+  - `src/data/faqs.ts` (updated quote FAQ answer to reference only the verified number)
+  - `src/components/layout/Footer.tsx` (removed second phone link)
+  - `src/components/home/QuoteSection.tsx` (replaced second phone link with direct WhatsApp chat)
+  - `README.md` & `PROJECT_STATE.md` (updated primary contact list)
+- Validated with clean production build (`npm run build` passed with 0 errors).

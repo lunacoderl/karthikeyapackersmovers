@@ -12,7 +12,6 @@ export const siteSeo = {
   businessName: 'Karthikeya Packers & Movers',
   legalName: 'Karthikeya Packers and Movers Vizianagaram',
   telephone: '+91 73375 34525',
-  telephoneAlt: '+91 94945 43838',
   email: 'contact@karthikeyapackersmovers.com',
   address: {
     streetAddress: 'D. No. 123, VUDA Colony, Phase-4, 40 Ward',

@@ -113,13 +113,6 @@ export const Footer: React.FC = () => {
                 <span>{companyDetails.phone1Display}</span>
               </a>
               <a
-                href={`tel:${companyDetails.phone2}`}
-                className="flex items-center gap-3 text-white hover:text-orange-400 transition-colors font-semibold"
-              >
-                <Phone className="w-5 h-5 text-orange-400 shrink-0" />
-                <span>{companyDetails.phone2Display}</span>
-              </a>
-              <a
                 href={`https://wa.me/${companyDetails.whatsappNumber}`}
                 target="_blank"
                 rel="noopener noreferrer"
