@@ -18,7 +18,7 @@
    - **Hero (`/hero-bg.png`)**: AP residential building "SHREE BALAJI TOWERS" with branded Karthikeya moving container carrier and loading crew.
    - **About (`/about-bg.png`)**: Vizianagaram branch office with bilingual Telugu/English signage, branded Eicher truck, supervisor and crew.
    - **Contact (`/contact-bg.png`)**: Vizianagaram customer service and dispatch desk with Andhra Pradesh route map and coordinator.
-   - **Services (6 cards)**: Household shifting, corporate relocation, kitchen crockery packing, local colony shifts, NH-16 highway container trucks, and bike transport.
+   - **Services (6 cards)**: Household shifting, corporate relocation, kitchen crockery packing, local Vizianagaram shifting with branded Karthikeya truck at Sri Sai Residency (`service-04.jpg`), NH-16 highway multi-axle interstate carrier branded with Karthikeya Packers & Movers (`service-05.jpg`), and bike/car transport.
 4. **Real Client Operational Video Proof**: Prominent video showcase featuring 4 genuine on-site relocation videos with an interactive lightbox player (`<video controls autoPlay>`).
 5. **Asymmetric Bento Advantages Grid**: Modern Bento layout with high-trust metrics and zero-damage guarantees.
 6. **Vehicle Fleet Section Removed**: Streamlined out per client instruction, replaced by Safe Transit Guarantees and Direct Doorstep Transit protocol.

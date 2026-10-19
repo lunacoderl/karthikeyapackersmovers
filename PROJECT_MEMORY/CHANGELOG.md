@@ -80,3 +80,9 @@
 - **About Background (`public/about-bg.png`)**: Panoramic authentic Vizianagaram branch office featuring dual Telugu & English signage ("కార్తికేయ ప్యాకర్స్ & మూవర్స్ - విజయనగరం / KARTHIKEYA PACKERS AND MOVERS - VIZIANAGARAM"), an AP-registered Eicher moving container carrier, branch supervisor with clipboard, uniformed crew, and labeled cartons ("KARTHIKEYA FRAGILE", "KARTHIKEYA KITCHEN").
 - **Contact Background (`public/contact-bg.png`)**: Authentic Indian customer relationship and dispatch desk in Vizianagaram, featuring wall signage with Andhra Pradesh route map, dispatch board, and representative assisting moving inquiries.
 - Verified clean build with `npm run build`.
+
+### 11. Branded Karthikeya Images for Local Shifting & Domestic Relocation Services
+- **User Feedback Addressed**: Replaced images for Local Shifting and Domestic Relocation that previously showed trucks with unbranded/generic third-party names.
+- **Local Shifting (`public/service/service-04.jpg`)**: High-resolution authentic photo in Vizianagaram outside "SRI SAI RESIDENCY". Features a moving container truck explicitly and prominently branded with **"KARTHIKEYA PACKERS AND MOVERS - VIZIANAGARAM"** and phone numbers, with uniformed loaders carrying a sofa protected with bubble wrap down the loading ramp.
+- **Domestic Relocation (`public/service/service-05.jpg`)**: Crisp, photorealistic shot along NH-16 highway with overhead directional signage ("VISAKHAPATNAM 110 km | HYDERABAD 380 km | VIJAYAWADA 160 km"). Features a modern multi-axle interstate carrier truck boldly branded with **"KARTHIKEYA PACKERS AND MOVERS - ALL INDIA RELOCATION • INTERSTATE SERVICE"**.
+- Validated with clean production build (`npm run build`).
