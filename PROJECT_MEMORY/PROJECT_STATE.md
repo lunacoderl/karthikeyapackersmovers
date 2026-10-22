@@ -24,3 +24,4 @@
 5. **Asymmetric Bento Advantages Grid**: Modern Bento layout with high-trust metrics and zero-damage guarantees.
 6. **Vehicle Fleet Section Removed**: Streamlined out per client instruction, replaced by Safe Transit Guarantees and Direct Doorstep Transit protocol.
 7. **Production Vercel Config**: Complete `vercel.json` with SPA routing and video streaming MIME headers.
+8. **Web Analytics & Tracking**: Official Google Analytics 4 (`gtag.js`) tag active with measurement ID `G-WSZ493T87C` embedded directly in `index.html` `<head>` for traffic telemetry and user engagement tracking.

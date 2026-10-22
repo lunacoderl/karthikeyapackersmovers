@@ -41,3 +41,12 @@
 ### Verification
 - `npm run build`: Verified build succeeds with zero errors.
 - Sitemap URL check: Sitemaps contain 7 valid absolute URLs, 0 relative paths, 0 hash fragments.
+
+---
+
+## Update: Google Analytics 4 (gtag.js) Integration
+- **Measurement ID**: `G-WSZ493T87C`
+- **Date**: October 22, 2026
+- **Files Modified**:
+  - `index.html`: Injected official Google Analytics tracking tag (`gtag.js`) with measurement ID `G-WSZ493T87C` into the `<head>` tag.
+- **Verification**: `npm run build` completed cleanly with 0 TypeScript/Vite errors.

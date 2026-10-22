@@ -15,3 +15,4 @@
 - [x] Completely removed the Vehicle Fleet section from the entire website (`VehicleFleetSection.tsx` removed, navigation links updated, and quote forms streamlined).
 - [x] Overhauled the website design to look completely distinct and modern (Deep Navy `#0B192C` + Saffron `#FF6500`, split Hero with Move Estimator, Bento advantages grid, 5-step flow, and interactive service cards).
 - [x] Verified zero TypeScript or Vite errors (`npm run build` completed successfully).
+- [x] Injected official Google Analytics 4 tracking tag (`gtag.js` with ID `G-WSZ493T87C`) into `index.html` head for live site telemetry and confirmed production build passes with 0 errors.
