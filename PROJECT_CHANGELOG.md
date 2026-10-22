@@ -50,3 +50,12 @@
 - **Files Modified**:
   - `index.html`: Injected official Google Analytics tracking tag (`gtag.js`) with measurement ID `G-WSZ493T87C` into the `<head>` tag.
 - **Verification**: `npm run build` completed cleanly with 0 TypeScript/Vite errors.
+
+---
+
+## Update: Google Tag Manager (GTM) Integration
+- **Container ID**: `GTM-NQDB6TWM`
+- **Date**: October 22, 2026
+- **Files Modified**:
+  - `index.html`: Injected official Google Tag Manager container loader script in `<head>` and `<noscript>` fallback iframe directly after `<body>`.
+- **Verification**: `npm run build` completed cleanly with 0 TypeScript/Vite errors.

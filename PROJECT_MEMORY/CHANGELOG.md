@@ -104,3 +104,12 @@
 - **Files Modified**:
   - `index.html`: Injected official Google tag (`gtag.js`) script and dataLayer initialization snippet directly at the top of the `<head>` element for immediate loading and tracking.
 - **Verification**: Executed `npm run build` (`tsc -b && vite build`) which completed with 0 errors.
+
+### 14. Google Tag Manager Integration (GTM-NQDB6TWM)
+- **Task**: Injected official Google Tag Manager container script and noscript fallback for comprehensive tracking and tag orchestration.
+- **Container ID**: `GTM-NQDB6TWM`
+- **Files Modified**:
+  - `index.html`:
+    - Inserted Google Tag Manager container initialization script directly within `<head>`.
+    - Inserted Google Tag Manager `<noscript>` fallback iframe immediately after the opening `<body>` tag.
+- **Verification**: Executed `npm run build` (`tsc -b && vite build`) which completed with 0 errors.
