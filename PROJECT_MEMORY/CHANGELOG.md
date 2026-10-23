@@ -124,3 +124,14 @@
   - `src/components/home/QuoteSection.tsx`:
     - Added Google Ads conversion and `generate_lead` event trigger inside `handleSubmit` when a quote request is sent to WhatsApp.
 - **Verification**: Executed `npm run build` (`tsc -b && vite build`) which completed cleanly in 4.54s with 0 errors.
+
+### 16. Google Ads Contact Conversion Event Snippet (AW-18529521457/jEkSCPWRgKcdELGeyINF)
+- **Task**: Implemented official Google Ads Contact conversion action snippet `gtag_report_conversion` and bound conversion label `AW-18529521457/jEkSCPWRgKcdELGeyINF` to all contact triggers (phone call clicks, WhatsApp chats, and quote form submissions).
+- **Conversion Action ID & Label**: `AW-18529521457/jEkSCPWRgKcdELGeyINF`
+- **Files Modified**:
+  - `index.html`:
+    - Defined `gtag_report_conversion(url)` function globally with callback routing.
+    - Updated global click event listener for `tel:` and `wa.me` links to send directly to `AW-18529521457/jEkSCPWRgKcdELGeyINF`.
+  - `src/components/home/QuoteSection.tsx`:
+    - Updated quote form WhatsApp submission handler to send conversion event with label `AW-18529521457/jEkSCPWRgKcdELGeyINF`.
+- **Verification**: Executed `npm run build` (`tsc -b && vite build`) which completed with 0 errors in 4.64s.

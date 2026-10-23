@@ -24,4 +24,4 @@
 5. **Asymmetric Bento Advantages Grid**: Modern Bento layout with high-trust metrics and zero-damage guarantees.
 6. **Vehicle Fleet Section Removed**: Streamlined out per client instruction, replaced by Safe Transit Guarantees and Direct Doorstep Transit protocol.
 7. **Production Vercel Config**: Complete `vercel.json` with SPA routing and video streaming MIME headers.
-8. **Web Analytics, Google Ads & Tag Management**: Official Google Tag Manager container (`GTM-NQDB6TWM`) active in `<head>` and `<body>` (noscript), Google Analytics 4 (`gtag.js` with ID `G-WSZ493T87C`), and Google Ads (`AW-18529521457`) with automated contact conversion tracking (phone clicks, WhatsApp chat clicks, and quote form submissions).
+8. **Web Analytics, Google Ads & Tag Management**: Official Google Tag Manager container (`GTM-NQDB6TWM`) active in `<head>` and `<body>` (noscript), Google Analytics 4 (`gtag.js` with ID `G-WSZ493T87C`), and Google Ads (`AW-18529521457`) with active Contact conversion action (`AW-18529521457/jEkSCPWRgKcdELGeyINF`) tracking all phone clicks, WhatsApp chats, and quote form submissions.

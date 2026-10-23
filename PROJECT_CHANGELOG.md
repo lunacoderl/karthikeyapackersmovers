@@ -69,3 +69,14 @@
   - `index.html`: Integrated Google Ads tag (`AW-18529521457`) into `<head>` and added automated global click tracking on `tel:` and `wa.me` links for contact conversions.
   - `src/components/home/QuoteSection.tsx`: Injected `gtag('event', 'conversion', ...)` and `generate_lead` event on quote form submit.
 - **Verification**: `npm run build` completed cleanly with 0 TypeScript/Vite errors.
+
+---
+
+## Update: Google Ads Contact Conversion Snippet (`gtag_report_conversion`)
+- **Conversion Action**: Contact
+- **Send To**: `AW-18529521457/jEkSCPWRgKcdELGeyINF`
+- **Date**: October 23, 2026
+- **Files Modified**:
+  - `index.html`: Injected official `gtag_report_conversion` snippet and bound the conversion label to click listeners for phone (`tel:`) and WhatsApp (`wa.me`) links.
+  - `src/components/home/QuoteSection.tsx`: Injected conversion event with label `AW-18529521457/jEkSCPWRgKcdELGeyINF` on quote form WhatsApp submission.
+- **Verification**: Production build verified with zero errors (`tsc -b && vite build` completed in 4.64s).

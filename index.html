@@ -20,6 +20,20 @@
       gtag('config', 'G-WSZ493T87C');
       gtag('config', 'AW-18529521457');
 
+      // Event snippet for Contact conversion page
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-18529521457/jEkSCPWRgKcdELGeyINF',
+            'event_callback': callback
+        });
+        return false;
+      }
+
       // Contact Conversion Tracking for Google Ads & Analytics
       document.addEventListener('click', function(e) {
         var a = e.target && e.target.closest ? e.target.closest('a') : null;
@@ -28,7 +42,7 @@
         if (href.indexOf('tel:') === 0) {
           if (typeof window.gtag === 'function') {
             window.gtag('event', 'conversion', {
-              'send_to': 'AW-18529521457',
+              'send_to': 'AW-18529521457/jEkSCPWRgKcdELGeyINF',
               'event_category': 'Contact',
               'event_label': 'Phone Call: ' + href.replace('tel:', '')
             });
@@ -40,7 +54,7 @@
         } else if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp.com') !== -1) {
           if (typeof window.gtag === 'function') {
             window.gtag('event', 'conversion', {
-              'send_to': 'AW-18529521457',
+              'send_to': 'AW-18529521457/jEkSCPWRgKcdELGeyINF',
               'event_category': 'Contact',
               'event_label': 'WhatsApp Click'
             });

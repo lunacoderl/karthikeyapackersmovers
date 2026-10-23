@@ -44,7 +44,7 @@ export const QuoteSection: React.FC = () => {
     const win = window as unknown as { gtag?: (...args: unknown[]) => void }
     if (typeof win.gtag === 'function') {
       win.gtag('event', 'conversion', {
-        send_to: 'AW-18529521457',
+        send_to: 'AW-18529521457/jEkSCPWRgKcdELGeyINF',
         event_category: 'Lead',
         event_label: 'Quote Form Submission'
       })
