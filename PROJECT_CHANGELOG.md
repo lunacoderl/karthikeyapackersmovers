@@ -59,3 +59,13 @@
 - **Files Modified**:
   - `index.html`: Injected official Google Tag Manager container loader script in `<head>` and `<noscript>` fallback iframe directly after `<body>`.
 - **Verification**: `npm run build` completed cleanly with 0 TypeScript/Vite errors.
+
+---
+
+## Update: Google Ads (gtag.js) & Contact Conversion Tracking
+- **Tag ID**: `AW-18529521457`
+- **Date**: October 23, 2026
+- **Files Modified**:
+  - `index.html`: Integrated Google Ads tag (`AW-18529521457`) into `<head>` and added automated global click tracking on `tel:` and `wa.me` links for contact conversions.
+  - `src/components/home/QuoteSection.tsx`: Injected `gtag('event', 'conversion', ...)` and `generate_lead` event on quote form submit.
+- **Verification**: `npm run build` completed cleanly with 0 TypeScript/Vite errors.

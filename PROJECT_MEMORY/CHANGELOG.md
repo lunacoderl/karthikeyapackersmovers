@@ -113,3 +113,14 @@
     - Inserted Google Tag Manager container initialization script directly within `<head>`.
     - Inserted Google Tag Manager `<noscript>` fallback iframe immediately after the opening `<body>` tag.
 - **Verification**: Executed `npm run build` (`tsc -b && vite build`) which completed with 0 errors.
+
+### 15. Google Ads Tag & Contact Conversion Tracking (AW-18529521457)
+- **Task**: Injected Google Ads tag (`AW-18529521457`) and automated conversion tracking for contact actions (phone calls, WhatsApp clicks, and quote form submissions).
+- **Google Ads Tag ID**: `AW-18529521457`
+- **Files Modified**:
+  - `index.html`:
+    - Loaded `gtag.js` with `AW-18529521457` and registered `gtag('config', 'AW-18529521457')`.
+    - Added global event listener capturing phone clicks (`tel:`) and WhatsApp clicks (`wa.me`), dispatching Google Ads `conversion` and GA4 `contact` / `generate_lead` events.
+  - `src/components/home/QuoteSection.tsx`:
+    - Added Google Ads conversion and `generate_lead` event trigger inside `handleSubmit` when a quote request is sent to WhatsApp.
+- **Verification**: Executed `npm run build` (`tsc -b && vite build`) which completed cleanly in 4.54s with 0 errors.

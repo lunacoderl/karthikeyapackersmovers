@@ -17,3 +17,4 @@
 - [x] Verified zero TypeScript or Vite errors (`npm run build` completed successfully).
 - [x] Injected official Google Analytics 4 tracking tag (`gtag.js` with ID `G-WSZ493T87C`) into `index.html` head for live site telemetry and confirmed production build passes with 0 errors.
 - [x] Injected official Google Tag Manager container snippet (`GTM-NQDB6TWM`) into `index.html` (`<head>` script + `<body>` noscript iframe) and verified clean build.
+- [x] Added Google Ads tag (`AW-18529521457`) and automated contact conversion tracking (tracking phone clicks `tel:`, WhatsApp chat clicks `wa.me`, and quote form submissions). Clean build verified.

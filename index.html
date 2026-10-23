@@ -9,14 +9,51 @@
     })(window,document,'script','dataLayer','GTM-NQDB6TWM');</script>
     <!-- End Google Tag Manager -->
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) - Google Analytics & Google Ads -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSZ493T87C"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18529521457"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-WSZ493T87C');
+      gtag('config', 'AW-18529521457');
+
+      // Contact Conversion Tracking for Google Ads & Analytics
+      document.addEventListener('click', function(e) {
+        var a = e.target && e.target.closest ? e.target.closest('a') : null;
+        if (!a) return;
+        var href = a.getAttribute('href') || '';
+        if (href.indexOf('tel:') === 0) {
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'conversion', {
+              'send_to': 'AW-18529521457',
+              'event_category': 'Contact',
+              'event_label': 'Phone Call: ' + href.replace('tel:', '')
+            });
+            window.gtag('event', 'contact', {
+              'method': 'phone',
+              'value': href.replace('tel:', '')
+            });
+          }
+        } else if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp.com') !== -1) {
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'conversion', {
+              'send_to': 'AW-18529521457',
+              'event_category': 'Contact',
+              'event_label': 'WhatsApp Click'
+            });
+            window.gtag('event', 'contact', {
+              'method': 'whatsapp'
+            });
+            window.gtag('event', 'generate_lead', {
+              'currency': 'INR',
+              'value': 1.0
+            });
+          }
+        }
+      }, true);
     </script>
 
     <meta charset="UTF-8" />

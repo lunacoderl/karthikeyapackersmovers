@@ -40,6 +40,20 @@ export const QuoteSection: React.FC = () => {
     setValidationError(null)
     setSubmittedStatus(true)
 
+    // Trigger Google Ads & Analytics Lead Conversion
+    const win = window as unknown as { gtag?: (...args: unknown[]) => void }
+    if (typeof win.gtag === 'function') {
+      win.gtag('event', 'conversion', {
+        send_to: 'AW-18529521457',
+        event_category: 'Lead',
+        event_label: 'Quote Form Submission'
+      })
+      win.gtag('event', 'generate_lead', {
+        currency: 'INR',
+        value: 1.0
+      })
+    }
+
     // Construct WhatsApp message URL and launch
     const url = buildWhatsAppQuoteUrl(formData)
     window.open(url, '_blank')
